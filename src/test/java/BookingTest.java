@@ -1,5 +1,3 @@
-package com.magorographics.courses;
-
 import models.Booking;
 import org.junit.Before;
 import org.junit.Test;
