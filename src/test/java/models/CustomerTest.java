@@ -31,10 +31,11 @@ public class CustomerTest {
 
     @Test
     public void getTown() {
-
+        assertEquals("Edinburgh", customer1.getTown());
     }
 
     @Test
     public void getAge() {
+        assertEquals(30,customer1.getAge());
     }
 }
