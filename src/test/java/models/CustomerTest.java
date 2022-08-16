@@ -16,6 +16,7 @@ public class CustomerTest {
                 .lastName("Doe")
                 .town("Edinburgh")
                 .age(30)
+                .sex("male")
                 .build();
     }
 
@@ -37,5 +38,9 @@ public class CustomerTest {
     @Test
     public void getAge() {
         assertEquals(30,customer1.getAge());
+    }
+    @Test
+    public void getSex(){
+        assertEquals("male",customer1.getSex());
     }
 }
