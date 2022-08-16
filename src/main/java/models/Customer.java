@@ -15,5 +15,6 @@ public class Customer {
     private String town;
     @NonNull
     private int age;
+    private String sex;
 
 }
